@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forces & Motion Intuition</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <button id="sidebar-toggle" aria-label="Toggle sidebar">&#9776;</button>
+        <aside id="sidebar">
+            <div id="sidebar-header">
+                <h1>Forces & Motion Intuition</h1>
+                <p class="author">Hewitt · Perelman · PEP Textbook</p>
+                <div id="progress-container">
+                    <div id="progress-bar"><div id="progress-fill"></div></div>
+                    <span id="progress-text">0%</span>
+                </div>
+            </div>
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Search topics...">
+            </div>
+            <nav id="chapter-nav"></nav>
+            <div id="sidebar-footer">
+                <button id="reset-progress">Reset Progress</button>
+            </div>
+        </aside>
+        <main id="main-content">
+            <div id="welcome-screen">
+                <div class="welcome-hero">
+                    <h1>Forces & Motion Intuition</h1>
+                    <h2>An Interactive Journey into the Physics of Movement</h2>
+                    <p class="welcome-description">
+                        Discover how things move, why they stop, and what forces shape our world.
+                        From pushing a swing to launching a rocket — physics is everywhere!
+                    </p>
+                </div>
+                <div class="roadmap">
+                    <h3>What You'll Explore</h3>
+                    <div class="roadmap-parts">
+                        <div class="roadmap-part">
+                            <h4>Part A: Understanding Motion</h4>
+                            <ul>
+                                <li>Ch 0: What Is Motion</li>
+                                <li>Ch 1: Position & Reference Frames</li>
+                                <li>Ch 2: Speed</li>
+                                <li>Ch 3: Acceleration</li>
+                                <li>Ch 4: Motion Graphs</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part B: World of Forces</h4>
+                            <ul>
+                                <li>Ch 5: What Is Force</li>
+                                <li>Ch 6: Gravity</li>
+                                <li>Ch 7: Elastic Force</li>
+                                <li>Ch 8: Friction</li>
+                                <li>Ch 9: Buoyancy</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part C: Newton's Laws</h4>
+                            <ul>
+                                <li>Ch 10: Inertia</li>
+                                <li>Ch 11: Force & Acceleration</li>
+                                <li>Ch 12: Action & Reaction</li>
+                                <li>Ch 13: Free Fall</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part D: Simple Machines</h4>
+                            <ul>
+                                <li>Ch 14: Levers</li>
+                                <li>Ch 15: Pulleys</li>
+                                <li>Ch 16: Inclined Planes</li>
+                                <li>Ch 17: Wheels & Gears</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part E: Mysteries of Motion</h4>
+                            <ul>
+                                <li>Ch 18: Projectile Motion</li>
+                                <li>Ch 19: Circular Motion</li>
+                                <li>Ch 20: Vibration & Pendulum</li>
+                                <li>Ch 21: Motion in Space</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="welcome-start">Select a chapter from the sidebar to begin your adventure!</p>
+            </div>
+            <div id="chapter-content" style="display:none;">
+                <div id="chapter-header">
+                    <div id="chapter-number-badge"></div>
+                    <h1 id="chapter-title"></h1>
+                    <p id="chapter-subtitle"></p>
+                </div>
+                <div id="section-tabs"></div>
+                <article id="section-content"></article>
+                <div id="exercises-panel" style="display:none;">
+                    <h3>Practice Time!</h3>
+                    <div id="exercises-list"></div>
+                </div>
+                <div id="chapter-nav-buttons">
+                    <button id="prev-btn" disabled>&larr; Previous</button>
+                    <span id="section-indicator"></span>
+                    <button id="next-btn">Next &rarr;</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <script src="viz-engine.js"></script>
+
+    <!-- Chapter manifest for lazy loading -->
+    <script>
+    window.CHAPTER_MANIFEST = [
+        {number:0,  id:'ch00', title:'What Is Motion',            file:'ch00-what-is-motion'},
+        {number:1,  id:'ch01', title:'Position & Reference Frames', file:'ch01-position-reference'},
+        {number:2,  id:'ch02', title:'Speed',                     file:'ch02-speed'},
+        {number:3,  id:'ch03', title:'Acceleration',              file:'ch03-acceleration'},
+        {number:4,  id:'ch04', title:'Motion Graphs',             file:'ch04-describing-motion'},
+        {number:5,  id:'ch05', title:'What Is Force',             file:'ch05-what-is-force'},
+        {number:6,  id:'ch06', title:'Gravity',                   file:'ch06-gravity'},
+        {number:7,  id:'ch07', title:'Elastic Force',             file:'ch07-elastic-force'},
+        {number:8,  id:'ch08', title:'Friction',                  file:'ch08-friction'},
+        {number:9,  id:'ch09', title:'Buoyancy',                  file:'ch09-buoyancy'},
+        {number:10, id:'ch10', title:'Inertia',                   file:'ch10-inertia'},
+        {number:11, id:'ch11', title:'Force & Acceleration',      file:'ch11-force-and-acceleration'},
+        {number:12, id:'ch12', title:'Action & Reaction',         file:'ch12-action-reaction'},
+        {number:13, id:'ch13', title:'Free Fall',                 file:'ch13-free-fall'},
+        {number:14, id:'ch14', title:'Levers',                    file:'ch14-levers'},
+        {number:15, id:'ch15', title:'Pulleys',                   file:'ch15-pulleys'},
+        {number:16, id:'ch16', title:'Inclined Planes & Screws',  file:'ch16-inclined-planes'},
+        {number:17, id:'ch17', title:'Wheels & Gears',            file:'ch17-wheels-gears'},
+        {number:18, id:'ch18', title:'Projectile Motion',         file:'ch18-projectile'},
+        {number:19, id:'ch19', title:'Circular Motion',           file:'ch19-circular-motion'},
+        {number:20, id:'ch20', title:'Vibration & Pendulum',      file:'ch20-vibration-pendulum'},
+        {number:21, id:'ch21', title:'Motion in Space',           file:'ch21-motion-in-space'}
+    ];
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
