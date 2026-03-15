@@ -11,6 +11,13 @@ window.CHAPTERS.push({
             content: `
                 <h2>Moving in Circles</h2>
 
+                <div class="env-block intuition">
+                    <div class="env-title">From Parabolas to Circles</div>
+                    <div class="env-body"><p>In the last chapter, a sideways push from gravity curved a projectile's path into a parabola. What happens if the force always points toward a center, pulling the object inward? The path becomes a <strong>circle</strong>. Circular motion is everywhere: wheels spinning, planets orbiting, and even the spin cycle in your washing machine.</p></div>
+                </div>
+
+                <p>In this section, we will define circular motion and see how it differs from the straight-line motion we studied earlier.</p>
+
                 <p>Not everything moves in straight lines! Think about a merry-go-round spinning, a car going around a bend, or the Moon orbiting the Earth. These are all examples of <strong>circular motion</strong> — movement along a circular path.</p>
 
                 <p>Here is something surprising: even if an object moves around a circle at a constant speed, it is still <strong>accelerating</strong>! How can that be? Remember, acceleration is a change in velocity, and velocity has both speed AND direction. When you go around a circle, your direction is constantly changing, even if your speed stays the same.</p>
@@ -127,6 +134,8 @@ window.CHAPTERS.push({
             title: 'Centripetal Force',
             content: `
                 <h2>The Force That Keeps Things Spinning</h2>
+
+                <p>An object moving in a circle is constantly changing direction. By Newton's Second Law, that requires a force. What force is it, and where does it point? This section answers both questions.</p>
 
                 <p>For an object to move in a circle, there must be a force pulling it toward the center. This force is called the <strong>centripetal force</strong> (from Latin: "center-seeking").</p>
 
@@ -301,6 +310,8 @@ window.CHAPTERS.push({
             content: `
                 <h2>How Fast Around the Circle?</h2>
 
+                <p>We know a centripetal force is needed. But how much force? That depends on how fast the object moves around the circle. This section connects speed, radius, and centripetal force.</p>
+
                 <p>When something moves in a circle, we can describe its speed in two ways:</p>
 
                 <ul>
@@ -419,6 +430,8 @@ window.CHAPTERS.push({
             content: `
                 <h2>Circular Motion in Our World</h2>
 
+                <p>From roller coasters to satellites, circular motion shapes the technology and natural phenomena we encounter daily. Let us explore some striking examples.</p>
+
                 <p>Circular motion is everywhere once you start looking for it! Let us explore some exciting examples.</p>
 
                 <h3>Roller Coasters and Loops</h3>
@@ -444,6 +457,11 @@ window.CHAPTERS.push({
                     <div class="env-body">
                         <p>Banked roads (tilted curves) use a combination of gravity and the normal force to help provide centripetal force. This lets cars take turns even on icy days! Race tracks are always banked on the turns.</p>
                     </div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Circular motion goes around and around in a full loop. But what if the motion goes only partway back and forth, like a swing? That special kind of motion is called <strong>oscillation</strong>, and it is the topic of the next chapter on vibrations and pendulums.</p></div>
                 </div>
             `,
             visualizations: [

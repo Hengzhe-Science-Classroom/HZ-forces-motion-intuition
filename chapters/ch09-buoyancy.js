@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Sinking & Floating',
             content: `
                 <h2>Sinking and Floating</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Forces in Fluids</div>
+                    <div class="env-body"><p>We have explored gravity, elastic force, and friction. All of those work on solid ground. But what happens when you place an object in water or any other fluid? A new force appears: the upward push of the fluid. This chapter investigates <strong>buoyancy</strong>, the last major force type we will study before turning to Newton's laws.</p></div>
+                </div>
+
+                <p>In this section, we will see the tug-of-war between gravity pulling down and buoyancy pushing up, and learn what decides the winner.</p>
+
                 <p>Drop a rock into a pond &mdash; it sinks straight to the bottom. Toss in a piece of wood &mdash; it bobs on the surface. Why do some things float and others sink?</p>
 
                 <p>When you put an object in water, two forces battle each other:</p>
@@ -259,6 +267,9 @@ window.CHAPTERS.push({
             title: 'Density Decides',
             content: `
                 <h2>What Determines Floating? Density!</h2>
+
+                <p>We know that buoyancy pushes up and gravity pulls down. But what property of the object tips the balance? The answer is a single number called density.</p>
+
                 <p>The secret behind sinking and floating is <strong>density</strong> &mdash; how much stuff is packed into a given space.</p>
 
                 <div class="env-block definition">
@@ -452,6 +463,9 @@ window.CHAPTERS.push({
             title: "Archimedes' Principle",
             content: `
                 <h2>Archimedes' Principle</h2>
+
+                <p>Density tells us <em>whether</em> something floats. But how much upward force does the fluid actually exert? Archimedes figured this out over 2,000 years ago.</p>
+
                 <p>About 2,200 years ago, a Greek scientist named Archimedes made one of the greatest discoveries in physics &mdash; supposedly while taking a bath!</p>
 
                 <div class="env-block definition">
@@ -499,6 +513,9 @@ window.CHAPTERS.push({
             title: 'Submarines & Hot Air Balloons',
             content: `
                 <h2>Submarines and Hot Air Balloons</h2>
+
+                <p>Now that we understand buoyancy, let us see how engineers harness it to build machines that can rise and dive through fluids on command.</p>
+
                 <p>Humans have built amazing machines that use buoyancy to rise and sink on command!</p>
 
                 <h3>Submarines</h3>
@@ -540,6 +557,11 @@ window.CHAPTERS.push({
                 <div class="env-block warning">
                     <div class="env-title">Loading a Ship</div>
                     <div class="env-body"><p>Every ship has a maximum safe load. If you put too much cargo on a ship, it sinks deeper and deeper in the water. Eventually, water can come over the sides and the ship sinks! Ships have a line painted on the hull called the <strong>Plimsoll line</strong> that shows the maximum safe water level.</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">A New Arc Begins</div>
+                    <div class="env-body"><p>We have now surveyed the major types of forces: gravity, elastic force, friction, and buoyancy. The next big question is: how do forces and motion connect? In the next chapter, we begin exploring <strong>Newton's three laws of motion</strong>, starting with the idea of <strong>inertia</strong>, the tendency of objects to resist changes in their motion.</p></div>
                 </div>
             `,
             visualizations: [{

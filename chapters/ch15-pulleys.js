@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Fixed Pulleys',
             content: `
                 <h2>Fixed Pulleys: Changing Direction</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From Levers to Pulleys</div>
+                    <div class="env-body"><p>Levers are great for prying and lifting, but sometimes you need to raise a load straight up with a rope. That is where <strong>pulleys</strong> come in. A pulley is a wheel that guides a rope, and by combining several pulleys you can lift objects far heavier than you could on your own.</p></div>
+                </div>
+
+                <p>In this section, we meet the simplest pulley type and learn what it does (and does not do) for you.</p>
+
                 <p>A <strong>pulley</strong> is a wheel with a groove that holds a rope. The simplest type is a <strong>fixed pulley</strong> — it is attached to a ceiling or frame and does not move up or down.</p>
 
                 <div class="env-block definition">
@@ -148,6 +156,9 @@ window.CHAPTERS.push({
             title: 'Movable Pulleys',
             content: `
                 <h2>Movable Pulleys: Cutting Force in Half</h2>
+
+                <p>A fixed pulley changes direction but not force. Can we do better? By attaching the pulley to the load instead of the ceiling, something remarkable happens.</p>
+
                 <p>A <strong>movable pulley</strong> is attached to the load and moves up with it. One end of the rope is tied to the ceiling, and you pull the other end.</p>
 
                 <div class="env-block definition">
@@ -288,6 +299,9 @@ window.CHAPTERS.push({
             title: 'Pulley Systems',
             content: `
                 <h2>Pulley Systems: More Pulleys, Less Force</h2>
+
+                <p>One movable pulley halves the force. What if we combine fixed and movable pulleys into a system? This section shows how engineers stack pulleys to lift enormous loads.</p>
+
                 <p>What if one pulley can cut force in half? What happens if we add more pulleys? The force gets divided even further!</p>
 
                 <div class="env-block definition">
@@ -450,6 +464,9 @@ window.CHAPTERS.push({
             title: 'Real-World Pulleys',
             content: `
                 <h2>Real-World Pulleys</h2>
+
+                <p>From construction cranes to elevators, pulleys are at work all around us. Let us tour some of the most impressive real-world applications.</p>
+
                 <p>Pulleys are used all around us in amazing ways!</p>
 
                 <div class="env-block example">
@@ -473,6 +490,11 @@ window.CHAPTERS.push({
                 <div class="env-block intuition">
                     <div class="env-title">Discovery</div>
                     <div class="env-body"><p>An elevator with a counterweight is brilliant. If the elevator cabin weighs 5000 N and the counterweight also weighs 5000 N, the motor only needs to lift the weight of the passengers! This saves huge amounts of energy.</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Pulleys redirect and multiply force using ropes and wheels. The next chapter introduces another ancient trick: the <strong>inclined plane</strong> (ramp). By spreading a vertical lift over a longer, gentler slope, ramps let us move heavy objects upward with far less effort.</p></div>
                 </div>
             `,
             visualizations: [

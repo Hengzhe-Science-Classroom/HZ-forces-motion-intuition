@@ -11,6 +11,13 @@ window.CHAPTERS.push({
             content: `
                 <h2>What Is an Orbit?</h2>
 
+                <div class="env-block intuition">
+                    <div class="env-title">The Grand Finale</div>
+                    <div class="env-body"><p>This is the final chapter of our course. Everything we have learned, from forces and Newton's laws to projectile and circular motion, comes together here on the grandest stage: outer space. An orbit is really just projectile motion where the object moves fast enough to keep missing the ground. Let us see how.</p></div>
+                </div>
+
+                <p>In this section, we will understand what an orbit really is and calculate the speed needed to stay in orbit around the Earth.</p>
+
                 <p>Here is a mind-bending idea: astronauts on the International Space Station are actually <strong>falling</strong> — all the time! They are falling toward the Earth, but they are also moving sideways so fast that the Earth curves away beneath them. They keep falling and missing the ground forever. That is what an orbit is!</p>
 
                 <div class="env-block intuition">
@@ -219,6 +226,8 @@ window.CHAPTERS.push({
             content: `
                 <h2>The Rules That Planets Follow</h2>
 
+                <p>Centuries before Newton, an astronomer named Johannes Kepler discovered three elegant rules that describe how planets orbit the Sun. These rules connect perfectly with Newton's law of gravity.</p>
+
                 <p>About 400 years ago, a German astronomer named <strong>Johannes Kepler</strong> discovered three beautiful rules about how planets move. He figured these out by carefully studying the observations of another astronomer, Tycho Brahe. Later, Isaac Newton showed why these rules work — they all come from gravity!</p>
 
                 <h3>Kepler's First Law: Ellipses</h3>
@@ -364,6 +373,8 @@ window.CHAPTERS.push({
             title: 'Gravity Slingshot',
             content: `
                 <h2>Stealing Speed from Planets</h2>
+
+                <p>Rockets carry limited fuel, yet spacecraft like Voyager have reached the edge of the solar system. How? By "borrowing" speed from the planets themselves in a maneuver called a gravity slingshot.</p>
 
                 <p>Space is BIG. Really, really big. Even with powerful rockets, it takes a very long time to reach distant planets. But clever scientists found a trick: you can use a planet's gravity to <strong>speed up</strong> a spacecraft without using any fuel!</p>
 
@@ -577,6 +588,8 @@ window.CHAPTERS.push({
             title: 'Exploring the Solar System',
             content: `
                 <h2>Our Cosmic Neighborhood</h2>
+
+                <p>Let us take a tour of the solar system and see how everything we have learned, from gravity to orbital mechanics, plays out across eight planets and beyond.</p>
 
                 <p>Everything we have learned in this course — forces, motion, gravity, circular motion — comes together beautifully in the solar system. The planets dance around the Sun, following Kepler's laws, held in place by gravity, each tracing out its own elliptical orbit.</p>
 

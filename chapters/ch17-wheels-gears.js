@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Wheel and Axle',
             content: `
                 <h2>Wheel and Axle</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">The Final Simple Machine</div>
+                    <div class="env-body"><p>We have studied levers, pulleys, and inclined planes. The last family of simple machines is the <strong>wheel</strong>. Wheels reduce friction, multiply force, and, when combined into <strong>gears</strong>, transfer motion from one place to another. This chapter completes our simple machines tour.</p></div>
+                </div>
+
+                <p>In this section, we will see how a wheel and axle work together to amplify force or speed, depending on which part you turn.</p>
+
                 <p>A <strong>wheel and axle</strong> is a simple machine made of a large wheel attached to a smaller rod called an axle. They spin together. When you turn the wheel, the axle turns too — but with greater force!</p>
 
                 <div class="env-block definition">
@@ -203,6 +211,9 @@ window.CHAPTERS.push({
             title: 'Gear Basics',
             content: `
                 <h2>Gear Basics</h2>
+
+                <p>Wheels become even more powerful when you add teeth to their edges. Two toothed wheels that interlock form a <strong>gear system</strong>. Let us see how gears transfer and transform motion.</p>
+
                 <p>A <strong>gear</strong> is a wheel with teeth around its edge. When two gears mesh (their teeth interlock), turning one gear makes the other turn too. Gears transfer and transform rotational motion.</p>
 
                 <div class="env-block definition">
@@ -348,6 +359,9 @@ window.CHAPTERS.push({
             title: 'Gear Ratios',
             content: `
                 <h2>Gear Ratios: Speed vs. Force</h2>
+
+                <p>Gears always involve a trade-off between speed and force. The gear ratio is the number that tells you exactly what you are getting. Let us learn how to calculate and interpret it.</p>
+
                 <p>The <strong>gear ratio</strong> tells you how the speed and force change between two connected gears.</p>
 
                 <div class="env-block definition">
@@ -498,6 +512,9 @@ window.CHAPTERS.push({
             title: 'Bicycle Gears',
             content: `
                 <h2>Bicycle Gears</h2>
+
+                <p>The best way to feel gear ratios in action is to ride a bicycle. This section connects the theory to the physical sensation of shifting gears.</p>
+
                 <p>One of the best examples of gears in daily life is a <strong>bicycle</strong>! When you shift gears on a bike, you are changing the gear ratio between the pedal gear (chainring) and the wheel gear (sprocket).</p>
 
                 <div class="env-block definition">
@@ -524,6 +541,11 @@ window.CHAPTERS.push({
                 <div class="env-block intuition">
                     <div class="env-title">Discovery</div>
                     <div class="env-body"><p>Next time you ride a bike, pay attention to how shifting gears changes the feel. Low gears feel easy to spin but you move slowly. High gears feel heavy but you fly down the road. You are experiencing gear ratios in action!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">A New Arc: Advanced Motion</div>
+                    <div class="env-body"><p>We have completed the simple machines arc. You now know how levers, pulleys, ramps, and gears multiply and redirect forces. In the final four chapters, we will explore <strong>advanced types of motion</strong>: projectiles flying through the air, objects spinning in circles, pendulums swinging back and forth, and planets orbiting in space. First up: <strong>projectile motion</strong>.</p></div>
                 </div>
             `,
             visualizations: [

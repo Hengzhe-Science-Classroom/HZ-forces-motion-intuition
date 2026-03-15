@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Speeding Up and Slowing Down',
             content: `
                 <h2>Speeding Up and Slowing Down</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Beyond Constant Speed</div>
+                    <div class="env-body"><p>In the previous chapter, we measured how fast things move. But we quietly assumed that speed stays the same throughout a trip. In reality, almost nothing moves at a perfectly constant speed. This chapter asks the next natural question: what happens when speed itself changes?</p></div>
+                </div>
+
+                <p>In this section, we will explore what it feels like when speed changes and build our intuition before diving into the math.</p>
+
                 <p>In the last chapter, we talked about speed. But here is something interesting: speed does not always stay the same! Cars speed up when they leave a traffic light and slow down when they approach a stop sign. A ball thrown upward slows down, stops, then speeds up coming back down.</p>
 
                 <div class="env-block intuition">
@@ -189,6 +197,9 @@ window.CHAPTERS.push({
             title: 'What Is Acceleration?',
             content: `
                 <h2>What Is Acceleration?</h2>
+
+                <p>We have felt what speeding up and slowing down is like. Now it is time to give this idea a precise name and a formula we can calculate with.</p>
+
                 <p>We know that speed tells us how fast position changes. But what tells us how fast <em>speed</em> changes? That is <strong>acceleration</strong>!</p>
 
                 <div class="env-block definition">
@@ -317,6 +328,9 @@ window.CHAPTERS.push({
             title: 'Positive and Negative Acceleration',
             content: `
                 <h2>Positive and Negative Acceleration</h2>
+
+                <p>We can now calculate acceleration, but the number can be positive or negative. What does the sign mean physically? This section answers that question.</p>
+
                 <p>Acceleration can be <strong>positive</strong> or <strong>negative</strong>. This tells us whether an object is speeding up or slowing down.</p>
 
                 <div class="env-block definition">
@@ -472,6 +486,9 @@ window.CHAPTERS.push({
             title: 'Speed-Time Graphs',
             content: `
                 <h2>Speed-Time Graphs</h2>
+
+                <p>In the previous chapter, we used distance-time graphs to visualize motion. Now we add a second type of graph that makes acceleration visible at a glance.</p>
+
                 <p>Just like distance-time graphs show how far you have gone, <strong>speed-time graphs</strong> show how fast you are going at each moment.</p>
 
                 <div class="env-block definition">
@@ -508,6 +525,11 @@ window.CHAPTERS.push({
                         <p>On a <strong>speed-time graph</strong>, the slope gives you the <strong>acceleration</strong>!</p>
                         <p>Flat line on a speed-time graph = zero slope = zero acceleration.</p>
                     </div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>We now have a complete toolkit for <em>describing</em> motion: position, speed, acceleration, and two kinds of graphs. In the next chapter, we will become experts at reading and drawing motion graphs, pulling all these ideas together into one powerful skill.</p></div>
                 </div>
             `,
             visualizations: [

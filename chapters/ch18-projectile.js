@@ -11,6 +11,13 @@ window.CHAPTERS.push({
             content: `
                 <h2>What Happens When You Throw a Ball?</h2>
 
+                <div class="env-block intuition">
+                    <div class="env-title">Combining What We Know</div>
+                    <div class="env-body"><p>We have studied forces and Newton's laws, and we have mastered simple machines. Now we enter the final arc of the course: advanced motion types. First up is <strong>projectile motion</strong>, where we combine horizontal motion and gravity to understand why thrown objects trace beautiful curved paths through the air.</p></div>
+                </div>
+
+                <p>In this section, we will discover the key insight of projectile motion: horizontal and vertical motion are independent of each other.</p>
+
                 <p>Have you ever thrown a ball to a friend? Or tossed a paper airplane across the room? When an object is launched into the air, we call it a <strong>projectile</strong>. A projectile is anything that moves through the air under the pull of gravity (and without an engine or propeller helping it along).</p>
 
                 <p>Here is the really cool secret about projectile motion: the horizontal and vertical parts of the motion are completely independent! That means:</p>
@@ -161,6 +168,8 @@ window.CHAPTERS.push({
             title: 'Parabolic Paths',
             content: `
                 <h2>The Beautiful Curve of a Thrown Ball</h2>
+
+                <p>We know horizontal and vertical motions are independent. When we combine them, the result is a graceful curve called a <strong>parabola</strong>. Let us see why.</p>
 
                 <p>When you combine steady horizontal motion with accelerating vertical motion, something wonderful happens: the ball traces out a smooth curve called a <strong>parabola</strong>.</p>
 
@@ -351,6 +360,8 @@ window.CHAPTERS.push({
             content: `
                 <h2>Aiming High vs. Aiming Low</h2>
 
+                <p>The path of a projectile depends on the angle you launch it. Should you aim high or low to get the farthest distance? This section explores how launch angle shapes the trajectory.</p>
+
                 <p>When you throw a ball at an angle, some of the speed goes horizontal and some goes vertical. The <strong>launch angle</strong> determines how the speed splits:</p>
 
                 <ul>
@@ -463,6 +474,8 @@ window.CHAPTERS.push({
             content: `
                 <h2>Finding the Maximum Range</h2>
 
+                <p>We have seen that angle matters. Is there a single "best" angle for maximum distance? The answer is elegant and has practical applications in every sport involving throwing or kicking.</p>
+
                 <p>The range of a projectile (how far it goes on flat ground) is given by a beautiful formula:</p>
 
                 \\[R = \\frac{v^2 \\sin(2\\theta)}{g}\\]
@@ -498,6 +511,11 @@ window.CHAPTERS.push({
                     <div class="env-body">
                         <p>Basketball players actually shoot at angles higher than 45 degrees for most shots. Why? Because the hoop is above them! When your target is higher than your launch point, a steeper angle gives a better chance of going in. The ball enters the hoop more steeply, which means it has a bigger "window" to fall through.</p>
                     </div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Projectile motion involves motion in a straight line combined with gravity pulling downward. But what happens when an object is constantly pulled <em>sideways</em>, toward a center? Instead of a parabola, you get a circle. That is <strong>circular motion</strong>, and it is the topic of the next chapter.</p></div>
                 </div>
             `,
             visualizations: [

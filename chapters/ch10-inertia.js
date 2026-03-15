@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Is Inertia?',
             content: `
                 <h2>What Is Inertia?</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From Forces to Laws</div>
+                    <div class="env-body"><p>We have spent five chapters exploring individual forces: gravity, elastic force, friction, and buoyancy. Now we ask a deeper question: what general rules connect forces to motion? Isaac Newton discovered three such rules, and the first one begins with a deceptively simple idea called <strong>inertia</strong>.</p></div>
+                </div>
+
+                <p>In this section, we will discover what inertia is and why objects "want" to keep doing whatever they are already doing.</p>
+
                 <p>Have you ever been riding in a car that suddenly stops? Your body keeps moving forward even though the car has stopped. That "keep going" feeling is called <strong>inertia</strong>.</p>
 
                 <div class="env-block definition">
@@ -191,6 +199,9 @@ window.CHAPTERS.push({
             title: "Newton's First Law",
             content: `
                 <h2>Newton's First Law of Motion</h2>
+
+                <p>We have an intuitive feel for inertia. Now let us see how Newton stated it as a precise law, the foundation of all mechanics.</p>
+
                 <p>Around 1687, a brilliant scientist named <strong>Isaac Newton</strong> wrote down three laws about how things move. The first law is all about inertia.</p>
 
                 <div class="env-block definition">
@@ -235,6 +246,9 @@ window.CHAPTERS.push({
             title: 'The Tablecloth Trick',
             content: `
                 <h2>The Tablecloth Trick</h2>
+
+                <p>Inertia is not just an abstract law. You can see it in action with a dramatic trick that looks like magic but is pure physics.</p>
+
                 <p>You might have seen a magician yank a tablecloth out from under a set of dishes without breaking anything. This is not magic - it is <strong>inertia</strong>!</p>
 
                 <div class="env-block intuition">
@@ -391,6 +405,9 @@ window.CHAPTERS.push({
             title: 'Inertia in Space',
             content: `
                 <h2>Inertia in Space</h2>
+
+                <p>On Earth, friction makes everything eventually stop, which can hide inertia from us. In space, there is no friction, so we can observe inertia in its purest form.</p>
+
                 <p>Space is the perfect place to see inertia in action. There is no air, no friction, and almost no gravity (when far from planets). If you push an object in space, it just keeps going forever!</p>
 
                 <div class="viz-placeholder" data-viz="viz-space-inertia"></div>
@@ -410,6 +427,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Astronaut Danger</div>
                     <div class="env-body"><p>If an astronaut pushes off from the space station and is not tethered, they will float away forever. There is no way to "stop" in empty space without something to push against! That is why astronauts always use safety tethers during spacewalks.</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Newton's First Law tells us what happens when there is <em>no</em> net force. But what happens when a net force <em>does</em> act? The answer is Newton's Second Law, \\(F = ma\\), which we will explore in the next chapter. It connects force, mass, and acceleration in one elegant equation.</p></div>
                 </div>
             `,
             visualizations: [

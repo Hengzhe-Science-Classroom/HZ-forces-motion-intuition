@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Pushes and Pulls',
             content: `
                 <h2>The Invisible Hands of Nature</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From "How Things Move" to "Why Things Move"</div>
+                    <div class="env-body"><p>In the first four chapters, we learned to <em>describe</em> motion using position, speed, acceleration, and graphs. But we never asked the deeper question: what <em>causes</em> an object to start moving, speed up, or stop? The answer is <strong>force</strong>. This chapter opens an entirely new arc of the course, where we explore the different types of forces in nature.</p></div>
+                </div>
+
+                <p>In this section, we will discover what a force is and explore the two big categories: contact forces and non-contact forces.</p>
+
                 <p>Every time something starts moving, speeds up, slows down, or changes direction, there is a <strong>force</strong> at work. Forces are everywhere &mdash; you just need to know where to look!</p>
 
                 <div class="env-block definition">
@@ -165,6 +173,9 @@ window.CHAPTERS.push({
             title: 'Measuring Force',
             content: `
                 <h2>How Strong Is That Push?</h2>
+
+                <p>We know forces are pushes and pulls, but how do we compare them? Is one push "twice as strong" as another? This section gives force a number.</p>
+
                 <p>We measure force in units called <strong>Newtons</strong>, named after Sir Isaac Newton. The symbol is <strong>N</strong>.</p>
 
                 <div class="env-block definition">
@@ -334,6 +345,9 @@ window.CHAPTERS.push({
             title: 'Force Arrows',
             content: `
                 <h2>Drawing Invisible Forces</h2>
+
+                <p>We can measure a force, but how do we communicate both its size and direction to someone else? Scientists invented a simple visual language for this purpose.</p>
+
                 <p>Forces are invisible, but scientists have a clever way to show them: <strong>force arrows</strong>.</p>
 
                 <div class="env-block definition">
@@ -435,6 +449,9 @@ window.CHAPTERS.push({
             title: 'Combining Forces',
             content: `
                 <h2>When Forces Team Up</h2>
+
+                <p>Rarely does a single force act alone. A falling leaf has gravity, air resistance, and wind all acting at once. How do we combine them? This section introduces the idea of <strong>net force</strong>.</p>
+
                 <p>In real life, objects usually have <strong>more than one force</strong> acting on them at the same time. What happens when multiple forces act together?</p>
 
                 <div class="env-block definition">
@@ -458,6 +475,11 @@ window.CHAPTERS.push({
                 <div class="env-block warning">
                     <div class="env-title">Watch Out!</div>
                     <div class="env-body"><p>Just because forces are balanced does not mean there are no forces. A book on a table has gravity pulling it down and the table pushing it up. The forces are balanced (net force = 0), but both forces are definitely there!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Now that we know what force is, how to measure it, and how to combine forces, we are ready to meet the most famous force of all: <strong>gravity</strong>. It is the force that keeps your feet on the ground and the planets in orbit, and it is the subject of the next chapter.</p></div>
                 </div>
             `,
             visualizations: [

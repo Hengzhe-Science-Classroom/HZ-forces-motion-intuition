@@ -11,6 +11,13 @@ window.CHAPTERS.push({
             content: `
                 <h2>Back and Forth, Again and Again</h2>
 
+                <div class="env-block intuition">
+                    <div class="env-title">From Circles to Swings</div>
+                    <div class="env-body"><p>In the last chapter, we studied circular motion, where an object goes all the way around. But many objects in nature do not complete a full circle; instead, they swing back and forth: a pendulum, a guitar string, a child on a swing. This repeating back-and-forth motion is called <strong>oscillation</strong>, and it follows beautiful, predictable rules.</p></div>
+                </div>
+
+                <p>In this section, we will define vibration and oscillation and identify the key properties that describe any back-and-forth motion.</p>
+
                 <p>Pluck a guitar string. Watch it blur as it vibrates back and forth incredibly fast. Push a child on a swing and watch them go back and forth in a steady rhythm. These are both examples of <strong>vibration</strong> — a motion that repeats itself over and over.</p>
 
                 <div class="env-block definition">
@@ -136,6 +143,8 @@ window.CHAPTERS.push({
             title: 'The Pendulum',
             content: `
                 <h2>The Grandfather Clock's Secret</h2>
+
+                <p>One of the most famous oscillators is the pendulum. For centuries, people used pendulums to keep time. What makes them so reliable? Let us find out.</p>
 
                 <p>A <strong>pendulum</strong> is one of the simplest and most beautiful oscillating systems. It is just a weight (called a <strong>bob</strong>) hanging from a string or rod that swings back and forth.</p>
 
@@ -275,6 +284,8 @@ window.CHAPTERS.push({
             title: 'Period Depends on Length',
             content: `
                 <h2>The Surprising Rule of Pendulums</h2>
+
+                <p>What determines how fast a pendulum swings? Is it the mass at the end, the angle you start it from, or the length of the string? The answer might surprise you.</p>
 
                 <p>Here is one of the most surprising facts about pendulums: the period (time for one swing) depends on the <strong>length</strong> of the string, but NOT on the <strong>mass</strong> of the bob!</p>
 
@@ -418,6 +429,8 @@ window.CHAPTERS.push({
             content: `
                 <h2>The Power of Perfectly Timed Pushes</h2>
 
+                <p>What happens when you push an oscillating object at just the right rhythm? The vibrations grow and grow. This phenomenon, called <strong>resonance</strong>, is both powerful and potentially dangerous.</p>
+
                 <p>Have you ever pushed someone on a swing? You quickly learn that timing matters! If you push at just the right moment — when the swing is at the top of its arc and starting to come back — each push adds to the motion and the swing goes higher and higher. But if you push at random times, the swing barely moves or even slows down.</p>
 
                 <p>This is <strong>resonance</strong>: when you apply a force at the same frequency as the natural frequency of an oscillating system, the energy builds up and the motion gets bigger and bigger.</p>
@@ -451,6 +464,11 @@ window.CHAPTERS.push({
                     <div class="env-body">
                         <p>Musical instruments use resonance in a beautiful way. When you pluck a guitar string, the body of the guitar resonates at the same frequency, making the sound much louder. The shape and size of the body are carefully designed to resonate well across many notes.</p>
                     </div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>We have explored motion on Earth: projectiles, circles, and oscillations. In the final chapter, we zoom out to the grandest stage of all: <strong>outer space</strong>. There we will see how gravity, circular motion, and Newton's laws combine to explain orbits, planetary paths, and the dance of our solar system.</p></div>
                 </div>
             `,
             visualizations: [

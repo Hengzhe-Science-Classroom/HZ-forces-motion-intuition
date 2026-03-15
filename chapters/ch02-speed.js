@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Is Speed?',
             content: `
                 <h2>What Is Speed?</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From Position to Speed</div>
+                    <div class="env-body"><p>In the previous chapter, we learned how to describe <em>where</em> an object is using positions and reference frames. But when an object moves from one position to another, we naturally want to know: <em>how fast</em> is it getting there? That question leads us to the concept of speed.</p></div>
+                </div>
+
+                <p>In this section, we will discover what speed means and how it connects distance and time.</p>
+
                 <p>A cheetah and a turtle both move -- but the cheetah covers a lot more ground in the same amount of time. The cheetah is <strong>faster</strong>. Speed is what tells us how fast something is moving.</p>
 
                 <div class="env-block definition">
@@ -148,6 +156,9 @@ window.CHAPTERS.push({
             title: 'Calculating Speed',
             content: `
                 <h2>Calculating Speed</h2>
+
+                <p>We now have an intuitive sense of speed, but how do we put a number on it? This section introduces the formula that turns our intuition into precise calculations.</p>
+
                 <p>Now let's learn the formula for speed. It is one of the most useful formulas in all of physics!</p>
 
                 <div class="env-block definition">
@@ -287,6 +298,9 @@ window.CHAPTERS.push({
             title: 'Comparing Speeds',
             content: `
                 <h2>Comparing Speeds</h2>
+
+                <p>With the speed formula in hand, let us put it to work. How do different things in our world compare? Prepare for some astonishing numbers.</p>
+
                 <p>Now that you know how to calculate speed, let's compare speeds of different things in the world!</p>
 
                 <div class="env-block intuition">
@@ -400,6 +414,9 @@ window.CHAPTERS.push({
             title: 'Distance-Time Graphs',
             content: `
                 <h2>Distance-Time Graphs</h2>
+
+                <p>Numbers are great, but pictures can tell the whole story at a glance. In this final section, we learn a powerful visual tool that will stay with us for the rest of the course.</p>
+
                 <p>One of the best ways to understand motion is to draw a picture of it! A <strong>distance-time graph</strong> shows how far an object has traveled at each moment in time.</p>
 
                 <div class="env-block definition">
@@ -428,6 +445,11 @@ window.CHAPTERS.push({
                         <p>Speed = 50 m / 10 s = 5 m/s.</p>
                         <p>The slope (steepness) of the line IS the speed!</p>
                     </div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Speed tells us how fast something moves, but in real life speed rarely stays constant. Cars speed up at green lights and slow down at red ones. What describes that change in speed? That is <strong>acceleration</strong>, the topic of our next chapter.</p></div>
                 </div>
             `,
             visualizations: [

@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Counts as Motion?',
             content: `
                 <h2>What Counts as Motion?</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Welcome to Forces &amp; Motion</div>
+                    <div class="env-body"><p>Everything in the universe is in motion, from tiny atoms to enormous galaxies. In this course, you will build an intuition for how and why things move. We start with the most basic question of all: what does it even mean to "move"? By the end of this chapter, you will be able to recognize, classify, and describe motion all around you.</p></div>
+                </div>
+
+                <p>In this section, we will answer a simple but important question: how do we decide whether something is moving or standing still?</p>
+
                 <p>Look around you right now. Is anything moving? Maybe a clock on the wall, a fan spinning, or a car passing outside the window. But what exactly <em>is</em> motion?</p>
 
                 <div class="env-block definition">
@@ -177,6 +185,9 @@ window.CHAPTERS.push({
             title: 'Types of Motion',
             content: `
                 <h2>Types of Motion</h2>
+
+                <p>Now that we know what motion is, a natural follow-up question arises: does all motion look the same? In this section, we will discover that there are several distinct patterns of motion, each with its own character.</p>
+
                 <p>Not all motion looks the same! A car driving straight ahead moves differently from a spinning top, and both move differently from a swing going back and forth. Let's explore the main types of motion.</p>
 
                 <div class="env-block definition">
@@ -310,6 +321,9 @@ window.CHAPTERS.push({
             title: 'Motion Is Relative',
             content: `
                 <h2>Motion Is Relative</h2>
+
+                <p>We have learned to identify motion and classify it into types. But here is a deeper question: can two people disagree about whether something is moving, and both be right? This section explores one of the most surprising ideas in physics.</p>
+
                 <p>Here is a mind-bending idea: <strong>whether something is "moving" depends on who is watching!</strong></p>
 
                 <div class="env-block intuition">
@@ -479,6 +493,9 @@ window.CHAPTERS.push({
             title: 'Motion All Around Us',
             content: `
                 <h2>Motion All Around Us</h2>
+
+                <p>We now know what motion is, how to classify it, and that it depends on who is watching. In this final section, we put it all together by spotting motion everywhere in daily life.</p>
+
                 <p>Now that you know what motion is, let's look at all the amazing motion happening around us every single day!</p>
 
                 <div class="env-block intuition">
@@ -504,6 +521,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Challenge</div>
                     <div class="env-body"><p>Next time you go outside, try to spot at least one example of each type of motion: linear, rotational, and oscillation. You might be surprised how many you find!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>We can now recognize motion and classify it, but to describe it precisely we need to pin down <em>where</em> an object is. In the next chapter, we will learn about <strong>position</strong> and <strong>reference frames</strong>, the tools that let us describe location with precision.</p></div>
                 </div>
             `,
             visualizations: [

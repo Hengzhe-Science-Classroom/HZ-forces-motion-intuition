@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Is Gravity?',
             content: `
                 <h2>The Force That Holds the Universe Together</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Our First Named Force</div>
+                    <div class="env-body"><p>In the last chapter, we learned that forces are pushes and pulls that cause changes in motion. Now we meet the first specific force by name: <strong>gravity</strong>. It is the force you have felt every day of your life, and it reaches across the entire universe.</p></div>
+                </div>
+
+                <p>In this section, we will discover what gravity is, why it exists, and what determines its strength.</p>
+
                 <p>Drop a ball. It falls. Jump up. You come back down. Throw a frisbee. It eventually lands. The reason for all of this is <strong>gravity</strong>.</p>
 
                 <div class="env-block definition">
@@ -169,6 +177,9 @@ window.CHAPTERS.push({
             title: 'Weight vs. Mass',
             content: `
                 <h2>Two Words That Sound the Same &mdash; But Are Not!</h2>
+
+                <p>Now that we understand gravity, we can tackle one of the most common mix-ups in science: the difference between weight and mass. Getting this right is key to understanding forces.</p>
+
                 <p>People often use "weight" and "mass" as if they mean the same thing. In physics, they are very different!</p>
 
                 <div class="env-block definition">
@@ -225,6 +236,9 @@ window.CHAPTERS.push({
             title: 'Gravity on Different Planets',
             content: `
                 <h2>What Would You Weigh on Jupiter?</h2>
+
+                <p>Since weight depends on gravity, and gravity varies from planet to planet, your weight changes depending on where in the solar system you stand. Let us explore how different worlds pull on you.</p>
+
                 <p>Different planets have different amounts of gravity because they have different masses and sizes. A bigger, heavier planet pulls harder!</p>
 
                 <div class="env-block remark">
@@ -468,6 +482,9 @@ window.CHAPTERS.push({
             title: 'Free Fall Preview',
             content: `
                 <h2>When Only Gravity Acts</h2>
+
+                <p>We have measured gravity and compared it across planets. Now let us explore what happens when gravity is the <em>only</em> force acting on an object. The result overturns a 2,000-year-old misconception.</p>
+
                 <p>What happens when you drop two objects at the same time &mdash; a heavy one and a light one? Most people guess the heavy one hits the ground first. But the truth is surprising!</p>
 
                 <div class="env-block definition">
@@ -493,6 +510,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Coming Up Next</div>
                     <div class="env-body"><p>We will study free fall in much more detail in Chapter 13. For now, just remember: gravity accelerates all objects equally at \\(g \\approx 10 \\text{ m/s}^2\\) (ignoring air resistance).</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">What Comes Next</div>
+                    <div class="env-body"><p>Gravity is a non-contact force that acts at a distance. In the next chapter, we will explore a very different kind of force: <strong>elastic force</strong>, the snap-back force of springs and rubber bands. It is a contact force that only works when objects are stretched or compressed.</p></div>
                 </div>
             `,
             visualizations: [

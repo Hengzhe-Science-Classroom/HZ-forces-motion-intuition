@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Is Friction?',
             content: `
                 <h2>What Is Friction?</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">The Force That Slows Things Down</div>
+                    <div class="env-body"><p>We have now met gravity (pulls things down) and elastic force (snaps things back). Both of those forces can make things move. But what about the force that makes things <em>stop</em>? If you slide a book across a table, it does not keep going forever. Something slows it down. That invisible resistor is <strong>friction</strong>.</p></div>
+                </div>
+
+                <p>In this section, we will define friction and see how it arises from surfaces rubbing against each other.</p>
+
                 <p>Kick a ball across the grass. Does it roll forever? No! It slows down and eventually stops. But why? There is no one pushing back on it. Or is there?</p>
 
                 <p>The answer is <strong>friction</strong> &mdash; a force that opposes motion whenever two surfaces touch and slide against each other.</p>
@@ -213,6 +221,9 @@ window.CHAPTERS.push({
             title: 'Types of Friction',
             content: `
                 <h2>Static vs. Kinetic Friction</h2>
+
+                <p>Friction is not always the same. Starting to push a heavy box feels different from keeping it sliding. It turns out friction comes in two varieties, and telling them apart is essential.</p>
+
                 <p>There are two main types of friction you should know about:</p>
 
                 <div class="env-block definition">
@@ -486,6 +497,9 @@ window.CHAPTERS.push({
             title: 'What Affects Friction?',
             content: `
                 <h2>What Affects Friction?</h2>
+
+                <p>We know there are two kinds of friction. But what controls how strong friction is? Why is ice slippery and sandpaper grippy? This section reveals the factors that determine friction.</p>
+
                 <p>Not all friction is the same. Some surfaces are slippery (like ice), and some are grippy (like sandpaper). What makes the difference?</p>
 
                 <h3>1. Surface Roughness</h3>
@@ -792,6 +806,9 @@ window.CHAPTERS.push({
             title: 'Friction Is Useful!',
             content: `
                 <h2>Friction Is Our Friend</h2>
+
+                <p>So far friction might seem like a nuisance. But would you really want to live in a world without it? This section flips the perspective.</p>
+
                 <p>We often think of friction as a problem &mdash; it makes things harder to push, wears things out, and wastes energy as heat. But actually, friction is incredibly useful!</p>
 
                 <h3>Walking</h3>
@@ -834,6 +851,11 @@ window.CHAPTERS.push({
                 <div class="env-block warning">
                     <div class="env-title">Watch Out!</div>
                     <div class="env-body"><p>Friction always produces heat. That is why rubbing your hands together warms them up, and why car brakes get hot. In machines, too much friction can cause overheating and damage &mdash; that is why we use oil!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>We have covered forces on land: gravity pulling, springs snapping, and friction resisting. But what about forces in <em>water</em>? Why do some things float and others sink? The next chapter reveals <strong>buoyancy</strong>, the upward push that fluids exert on objects.</p></div>
                 </div>
             `,
             visualizations: [],

@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Is a Lever?',
             content: `
                 <h2>What Is a Lever?</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Simple Machines: Multiplying Your Strength</div>
+                    <div class="env-body"><p>We have learned about forces and Newton's laws. But sometimes a task requires more force than we can supply. Humans solved this problem thousands of years ago by inventing <strong>simple machines</strong>. The first and most fundamental simple machine is the <strong>lever</strong>.</p></div>
+                </div>
+
+                <p>In this section, we will identify the three parts of every lever and see how a lever lets you lift something heavier than you could lift alone.</p>
+
                 <p>A <strong>lever</strong> is one of the simplest machines ever invented. It is just a stiff bar that can rotate around a fixed point. People have used levers for thousands of years to lift heavy objects that they could never move with their bare hands.</p>
 
                 <div class="env-block definition">
@@ -144,6 +152,9 @@ window.CHAPTERS.push({
             title: 'Three Classes of Levers',
             content: `
                 <h2>Three Classes of Levers</h2>
+
+                <p>All levers have the same three parts, but those parts can be arranged in different orders. This leads to three distinct classes, each with its own strengths.</p>
+
                 <p>Not all levers look the same! Scientists organize levers into three classes based on where the fulcrum, effort, and load are positioned.</p>
 
                 <div class="env-block definition">
@@ -293,6 +304,9 @@ window.CHAPTERS.push({
             title: 'The Lever Balance Equation',
             content: `
                 <h2>The Lever Balance Equation</h2>
+
+                <p>Levers are not just useful; they follow a precise mathematical rule. Understanding this equation lets you predict exactly how much force you need.</p>
+
                 <p>Levers follow a simple but powerful rule. For a lever to be perfectly balanced:</p>
 
                 <div class="env-block definition">
@@ -455,6 +469,9 @@ window.CHAPTERS.push({
             title: 'Levers in Everyday Life',
             content: `
                 <h2>Levers in Everyday Life</h2>
+
+                <p>Now that we understand the theory, let us spot levers all around us. You might be surprised at how many you use every day without realizing it.</p>
+
                 <p>Levers are everywhere around you! Once you know what to look for, you will find them in your kitchen, at school, and even in your own body.</p>
 
                 <div class="env-block example">
@@ -478,6 +495,11 @@ window.CHAPTERS.push({
                 <div class="env-block warning">
                     <div class="env-title">Important Rule</div>
                     <div class="env-body"><p>A lever does not reduce the total work you do — it just makes the task easier by letting you use less force over a longer distance.</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Levers let us multiply force by pivoting a bar. But what if we need to lift something straight up, like cargo onto a ship? The next chapter introduces <strong>pulleys</strong>, wheels with ropes that redirect and multiply force to lift heavy loads.</p></div>
                 </div>
             `,
             visualizations: [

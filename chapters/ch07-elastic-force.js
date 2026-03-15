@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'What Is Elasticity?',
             content: `
                 <h2>What Is Elasticity?</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From Gravity to Springs</div>
+                    <div class="env-body"><p>In the last chapter, we studied gravity, a force that pulls objects from a distance. Now we turn to a force you create by touching: the <strong>elastic force</strong>. Whenever you stretch a rubber band, compress a spring, or bend a bow, you are storing energy that can snap back. Understanding this force will even give us a new way to <em>measure</em> other forces.</p></div>
+                </div>
+
+                <p>In this section, we will explore what it means for a material to be elastic and see the difference between elastic and non-elastic objects.</p>
+
                 <p>Have you ever stretched a rubber band and then let it go? It snaps right back to its original shape! That special property is called <strong>elasticity</strong>.</p>
 
                 <div class="env-block definition">
@@ -197,6 +205,9 @@ window.CHAPTERS.push({
             title: 'Springs & Rubber Bands',
             content: `
                 <h2>Springs and Rubber Bands</h2>
+
+                <p>We know what elasticity is. Now let us look at the two most common elastic objects and discover how their behavior differs.</p>
+
                 <p>Springs and rubber bands are the two most common elastic objects. But they work a bit differently!</p>
 
                 <h3>How Springs Work</h3>
@@ -379,6 +390,9 @@ window.CHAPTERS.push({
             title: "Hooke's Law",
             content: `
                 <h2>Hooke's Law: The Rule of Springs</h2>
+
+                <p>Springs stretch in a predictable way. Is there a mathematical rule behind it? Robert Hooke found one about 350 years ago, and it is beautifully simple.</p>
+
                 <p>Around 350 years ago, a scientist named Robert Hooke discovered a simple rule about springs:</p>
 
                 <div class="env-block definition">
@@ -631,6 +645,9 @@ window.CHAPTERS.push({
             title: 'The Spring Scale',
             content: `
                 <h2>The Spring Scale</h2>
+
+                <p>Hooke's Law is not just a formula on paper. It powers one of the most useful tools in science: a device that turns stretching into a force measurement.</p>
+
                 <p>One of the coolest uses of Hooke's Law is the <strong>spring scale</strong> (also called a <strong>Newton meter</strong>). It uses a spring to measure force!</p>
 
                 <h3>How It Works</h3>
@@ -663,6 +680,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Elastic Force in Fun!</div>
                     <div class="env-body"><p>Elastic force is not just for measuring! Bows and arrows, catapults, and slingshots all store energy in elastic materials and release it to launch things. The more you stretch, the more energy is stored, and the farther things fly!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Elastic force pushes things back when you stretch or squeeze them. But what about the force you feel when you drag a heavy box across the floor? That resisting force is called <strong>friction</strong>, and it is the topic of our next chapter.</p></div>
                 </div>
             `,
             visualizations: [

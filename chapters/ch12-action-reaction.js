@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Every Action Has a Reaction',
             content: `
                 <h2>Every Action Has a Reaction</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">The Third and Final Law</div>
+                    <div class="env-body"><p>Newton's First Law described what happens with no net force (objects keep their state). The Second Law described what happens when a net force acts (objects accelerate). Now comes the Third Law, which reveals something remarkable: forces always come in <em>pairs</em>. You cannot push something without it pushing back on you.</p></div>
+                </div>
+
+                <p>In this section, we will state Newton's Third Law and see why it means forces are always two-sided.</p>
+
                 <p>Newton's Third Law is one of the most surprising ideas in physics:</p>
 
                 <div class="env-block definition">
@@ -63,6 +71,9 @@ window.CHAPTERS.push({
             title: 'Walking, Swimming, Rockets',
             content: `
                 <h2>Action-Reaction in Everyday Life</h2>
+
+                <p>The Third Law is not just for textbooks. Every step you take, every stroke you swim, and every jump you make relies on action-reaction pairs. Let us spot them in daily life.</p>
+
                 <p>Newton's Third Law is how everything moves! Here are some amazing examples:</p>
 
                 <div class="env-block example">
@@ -302,6 +313,9 @@ window.CHAPTERS.push({
             title: 'Collision Forces',
             content: `
                 <h2>Forces in Collisions</h2>
+
+                <p>Action-reaction pairs are easiest to see when things crash into each other. This section explores what happens during collisions and why equal forces can produce unequal results.</p>
+
                 <p>When two objects collide, Newton's Third Law tells us that the forces are always equal and opposite. This is true even if the objects have very different sizes!</p>
 
                 <div class="env-block intuition">
@@ -496,6 +510,9 @@ window.CHAPTERS.push({
             title: 'Rocket Propulsion',
             content: `
                 <h2>Rocket Propulsion</h2>
+
+                <p>We have seen action-reaction in walking, swimming, and collisions. Now we see its most dramatic application: launching a rocket into space.</p>
+
                 <p>Rockets are the ultimate example of Newton's Third Law. They work by throwing mass (hot exhaust gas) backward at very high speed. The gas pushes the rocket forward.</p>
 
                 <div class="env-block definition">
@@ -525,6 +542,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Thrust Equation</div>
                     <div class="env-body"><p>Rocket thrust depends on how fast the exhaust leaves and how much mass is ejected per second. A bigger, faster exhaust stream means more thrust. Engineers design rocket nozzles to maximize exhaust speed.</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>We now know all three of Newton's laws. Next, we revisit a question from Chapter 6 with fresh eyes: what happens when gravity is the <em>only</em> force on a falling object? The next chapter, <strong>Free Fall</strong>, combines Newton's laws with gravity to explain some of the most counter-intuitive experiments in the history of science.</p></div>
                 </div>
             `,
             visualizations: [

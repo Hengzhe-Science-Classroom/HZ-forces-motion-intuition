@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'The Ramp Advantage',
             content: `
                 <h2>The Ramp Advantage</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From Pulleys to Ramps</div>
+                    <div class="env-body"><p>Pulleys use ropes and wheels to multiply force. But sometimes the simplest solution is just a sloped surface. The <strong>inclined plane</strong> (ramp) is one of the oldest inventions in human history, used by the ancient Egyptians to build the pyramids. In this chapter, we will also see how the ramp idea hides inside screws and wedges.</p></div>
+                </div>
+
+                <p>In this section, we will see how a ramp trades distance for force, making it easier to move heavy objects upward.</p>
+
                 <p>Imagine you need to load a heavy box into a truck. You could lift it straight up — but that is really hard! Instead, you could use a <strong>ramp</strong> (an inclined plane) to slide it up gently.</p>
 
                 <div class="env-block definition">
@@ -182,6 +190,9 @@ window.CHAPTERS.push({
             title: 'Calculating Ramp Force',
             content: `
                 <h2>Calculating Ramp Force</h2>
+
+                <p>We know ramps reduce force, but by how much? This section provides the formula that relates ramp angle, weight, and the force you actually need to apply.</p>
+
                 <p>We can figure out exactly how much force is needed to push something up a ramp. It depends on the angle!</p>
 
                 <div class="env-block definition">
@@ -338,6 +349,9 @@ window.CHAPTERS.push({
             title: 'Screws: Wrapped Ramps',
             content: `
                 <h2>Screws: Wrapped Ramps</h2>
+
+                <p>The inclined plane can be disguised in surprising ways. This section reveals how one of the most common fasteners, the screw, is secretly a ramp wrapped around a cylinder.</p>
+
                 <p>Here is a surprising fact: a <strong>screw</strong> is really just an inclined plane wrapped around a cylinder! Look closely at a screw — the thread spirals around like a tiny ramp going up.</p>
 
                 <div class="env-block definition">
@@ -510,6 +524,9 @@ window.CHAPTERS.push({
             title: 'Wedges',
             content: `
                 <h2>Wedges: Splitting Force</h2>
+
+                <p>Ramps and screws both help you push things up. But what if you need to push things <em>apart</em>? A wedge is an inclined plane that moves, converting a downward push into a sideways split.</p>
+
                 <p>A <strong>wedge</strong> is another form of the inclined plane. While a ramp stays still and you push objects up it, a wedge moves through or into materials to split them apart or hold them in place.</p>
 
                 <div class="env-block definition">
@@ -535,6 +552,11 @@ window.CHAPTERS.push({
                 <div class="env-block intuition">
                     <div class="env-title">Discovery</div>
                     <div class="env-body"><p>A sharp knife cuts better than a dull one because it is a thinner wedge. The thinner the wedge, the more the downward force gets converted into sideways splitting force. This is why we sharpen blades!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>We have explored ramps, screws, and wedges. The final simple machine in our tour is the <strong>wheel and gear</strong>. In the next chapter, we will see how wheels turn small forces into big ones and how gears transfer and transform rotational motion.</p></div>
                 </div>
             `,
             visualizations: [

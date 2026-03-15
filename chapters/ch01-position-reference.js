@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Describing Position',
             content: `
                 <h2>Describing Position</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">From Motion to Position</div>
+                    <div class="env-body"><p>In the last chapter, we learned that motion means "changing position over time." But we were a bit vague about what "position" actually means. Before we can measure how things move, we first need to describe <em>where</em> they are. This chapter gives us the precise language for location.</p></div>
+                </div>
+
+                <p>In this section, we will learn how to describe where an object is by choosing a reference point and stating a direction and distance from it.</p>
+
                 <p>If someone asks you "Where is the cat?", you might say "On the sofa" or "Next to the bookshelf." You are describing the cat's <strong>position</strong> -- where it is located.</p>
 
                 <div class="env-block definition">
@@ -109,6 +117,9 @@ window.CHAPTERS.push({
             title: 'Coordinate Grids',
             content: `
                 <h2>Coordinate Grids</h2>
+
+                <p>Describing a position as "5 meters east of the school" works fine for everyday life, but scientists need something more precise and universal. How can we describe any position with just numbers? That is exactly what coordinate grids do.</p>
+
                 <p>Scientists use a neat system to describe positions precisely: a <strong>coordinate grid</strong>. You have probably seen one in math class!</p>
 
                 <div class="env-block definition">
@@ -200,6 +211,9 @@ window.CHAPTERS.push({
             title: 'Reference Frames Matter',
             content: `
                 <h2>Reference Frames Matter</h2>
+
+                <p>We can now pinpoint a position on a grid. But what if two people use different starting points? Could the same object end up at two different coordinates? This section tackles that question.</p>
+
                 <p>In Chapter 0, we learned that motion is relative. The same idea applies to position! <strong>Where</strong> you think something is depends on your reference frame.</p>
 
                 <div class="env-block definition">
@@ -350,6 +364,9 @@ window.CHAPTERS.push({
             title: 'Switching Reference Frames',
             content: `
                 <h2>Switching Reference Frames</h2>
+
+                <p>Now that we know different reference frames give different answers, the natural next step is learning how to translate between them. This section shows you how to switch from one frame to another.</p>
+
                 <p>Now let's see something really cool: we can <strong>switch</strong> between reference frames! This is like looking at the same scene through different cameras.</p>
 
                 <div class="env-block intuition">
@@ -375,6 +392,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Looking Ahead</div>
                     <div class="env-body"><p>Reference frames are one of the most important ideas in all of physics. When you study more advanced physics, you will learn that Albert Einstein built his entire theory of relativity on the idea of reference frames. For now, just remember: always ask "From whose point of view?"</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">What Comes Next</div>
+                    <div class="env-body"><p>We now know how to describe <em>where</em> something is. The next question is: when an object moves from one position to another, how fast does it get there? That is the idea of <strong>speed</strong>, and it is the topic of our next chapter.</p></div>
                 </div>
             `,
             visualizations: [

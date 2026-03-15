@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: "Galileo's Experiment",
             content: `
                 <h2>Galileo's Great Experiment</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Newton's Laws Meet Gravity</div>
+                    <div class="env-body"><p>We now have Newton's three laws and we know about gravity. What happens when we combine them? If gravity is the only force on an object, Newton's Second Law (\\(F = ma\\)) makes a startling prediction: all objects should fall at the same rate, regardless of mass. This chapter puts that prediction to the test.</p></div>
+                </div>
+
+                <p>In this section, we will revisit one of the most famous experiments in the history of science and see how Galileo overturned 2,000 years of wrong thinking.</p>
+
                 <p>For thousands of years, people believed that heavier objects fall faster than lighter ones. This idea came from the Greek philosopher <strong>Aristotle</strong>. It seems to make sense - drop a rock and a feather, and the rock hits the ground first.</p>
 
                 <p>But around 1590, the Italian scientist <strong>Galileo Galilei</strong> challenged this idea. Legend says he dropped two balls of different weights from the Leaning Tower of Pisa. They hit the ground at almost the same time!</p>
@@ -191,6 +199,9 @@ window.CHAPTERS.push({
             title: 'Air Resistance',
             content: `
                 <h2>Air Resistance: The Troublemaker</h2>
+
+                <p>Galileo's result seems to contradict everyday experience. Feathers clearly fall slower than rocks. So who is wrong? Nobody, as long as we account for one extra force: air resistance.</p>
+
                 <p>If all objects fall at the same rate, why does a feather float down slowly while a rock plummets? The answer is <strong>air resistance</strong> (also called <strong>drag</strong>).</p>
 
                 <div class="env-block definition">
@@ -408,6 +419,9 @@ window.CHAPTERS.push({
             title: 'The Vacuum Tube Experiment',
             content: `
                 <h2>The Vacuum Tube Experiment</h2>
+
+                <p>We have claimed that without air, all objects fall at the same rate. Can we actually prove it here on Earth? Yes, with a clever device that removes the air entirely.</p>
+
                 <p>We cannot easily go to the Moon to test Galileo's idea, but we can create a vacuum right here on Earth using a special glass tube.</p>
 
                 <div class="env-block definition">
@@ -586,6 +600,9 @@ window.CHAPTERS.push({
             title: 'Terminal Velocity',
             content: `
                 <h2>Terminal Velocity</h2>
+
+                <p>When air resistance is present, a falling object does not accelerate forever. At some point, it reaches a maximum falling speed. What determines that limit? This section answers the question.</p>
+
                 <p>When something falls through air, it speeds up due to gravity. But as it goes faster, air resistance also increases. At some point, the air resistance force becomes equal to the weight. When this happens, the forces are balanced and the object stops accelerating. It falls at a constant speed called <strong>terminal velocity</strong>.</p>
 
                 <div class="env-block definition">
@@ -616,6 +633,11 @@ window.CHAPTERS.push({
                 <div class="env-block remark">
                     <div class="env-title">Shape Matters</div>
                     <div class="env-body"><p>A skydiver can change their terminal velocity by changing body position. Spread out like a starfish = more drag = slower. Dive head-first = less drag = faster. This is how skydivers control their speed before opening the parachute.</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">A New Arc: Simple Machines</div>
+                    <div class="env-body"><p>We have now completed the Newton's Laws arc. We understand <em>why</em> things move the way they do. In the next four chapters, we will explore <strong>simple machines</strong>: levers, pulleys, inclined planes, and gears. These clever devices let us redirect and multiply forces to accomplish tasks we could never do with bare hands. First up: the <strong>lever</strong>.</p></div>
                 </div>
             `,
             visualizations: [

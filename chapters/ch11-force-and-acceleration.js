@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Force Causes Acceleration',
             content: `
                 <h2>Force Causes Acceleration</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Newton's Second Law</div>
+                    <div class="env-body"><p>Newton's First Law told us that objects stay put (or keep moving) when no net force acts. The natural follow-up is: what happens when there <em>is</em> a net force? This chapter answers that question with the most celebrated equation in introductory physics: \\(F = ma\\).</p></div>
+                </div>
+
+                <p>In this section, we will see the direct link between force and acceleration and understand why bigger forces cause bigger changes in motion.</p>
+
                 <p>In the last chapter, we learned that objects keep doing what they are doing unless a force acts on them. But what happens when a force <em>does</em> act? The answer: the object <strong>accelerates</strong> - it changes its speed or direction.</p>
 
                 <div class="env-block definition">
@@ -50,6 +58,9 @@ window.CHAPTERS.push({
             title: 'The F = ma Relationship',
             content: `
                 <h2>Exploring F = ma</h2>
+
+                <p>Now that we know force causes acceleration, let us master the equation itself and learn how to rearrange it to solve any problem.</p>
+
                 <p>The equation \\(F = ma\\) can be rearranged in three useful ways:</p>
                 <ul>
                     <li>To find <strong>force</strong>: \\(F = m \\times a\\)</li>
@@ -160,6 +171,9 @@ window.CHAPTERS.push({
             title: 'Mass Matters',
             content: `
                 <h2>Mass Matters: Heavier = Harder to Accelerate</h2>
+
+                <p>The equation tells us that mass appears in the denominator: \\(a = F/m\\). What does that mean in practice? This section builds your physical intuition for the role of mass.</p>
+
                 <p>If you apply the same force to a light object and a heavy object, the light one accelerates much more. This is because mass resists acceleration.</p>
 
                 <div class="viz-placeholder" data-viz="viz-push-carts"></div>
@@ -303,6 +317,9 @@ window.CHAPTERS.push({
             title: 'Real-World F = ma',
             content: `
                 <h2>F = ma in the Real World</h2>
+
+                <p>Theory is powerful, but seeing it in real situations makes it stick. Let us apply \\(F = ma\\) to cars, rockets, and everyday life.</p>
+
                 <p>Newton's Second Law is everywhere! Let us look at some real-world examples.</p>
 
                 <div class="env-block example">
@@ -328,6 +345,11 @@ window.CHAPTERS.push({
                 <div class="env-block warning">
                     <div class="env-title">Net Force</div>
                     <div class="env-body"><p>Remember: \\(F\\) in Newton's Second Law is the <strong>net force</strong> (total of all forces combined). If friction is 3 N and you push with 10 N, the net force is only 7 N. Always add up all forces first!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Looking Ahead</div>
+                    <div class="env-body"><p>Newton's Second Law tells us how one object responds to a force. But forces never act alone: when you push a wall, the wall pushes back on you! That leads us to Newton's Third Law, the law of <strong>action and reaction</strong>, which is up next.</p></div>
                 </div>
             `,
             visualizations: [

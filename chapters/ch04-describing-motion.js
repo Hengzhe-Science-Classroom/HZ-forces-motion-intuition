@@ -10,6 +10,14 @@ window.CHAPTERS.push({
             title: 'Reading Distance-Time Graphs',
             content: `
                 <h2>Stories on a Graph</h2>
+
+                <div class="env-block intuition">
+                    <div class="env-title">Putting It All Together</div>
+                    <div class="env-body"><p>Over the past three chapters, we built up the language of motion: position, speed, and acceleration. Now it is time to master the single most powerful tool for understanding motion, the <strong>motion graph</strong>. By the end of this chapter, you will be able to read a graph like a story and draw a graph from any description of motion.</p></div>
+                </div>
+
+                <p>In this section, we will learn to read distance-time graphs and decode what kind of motion they represent.</p>
+
                 <p>Imagine you're watching a friend walk to school. You can describe their whole trip with just a picture called a <strong>distance-time graph</strong>.</p>
 
                 <div class="env-block definition">
@@ -222,6 +230,9 @@ window.CHAPTERS.push({
             title: 'Drawing Distance-Time Graphs',
             content: `
                 <h2>From Story to Graph</h2>
+
+                <p>Reading graphs is one skill; creating them from a description is another. This section flips the process: starting from words, we draw the picture.</p>
+
                 <p>Now let's go the other way &mdash; you have a story, and you need to draw the graph!</p>
 
                 <div class="env-block example">
@@ -377,6 +388,9 @@ window.CHAPTERS.push({
             title: 'Speed from Graphs',
             content: `
                 <h2>The Slope Secret</h2>
+
+                <p>We have been reading and drawing graphs. Now we unlock the hidden connection: the slope of a distance-time graph is not just a shape; it is a number that equals the speed.</p>
+
                 <p>Here is the most powerful idea about distance-time graphs: the <strong>steepness</strong> (slope) of the line tells you the <strong>speed</strong>!</p>
 
                 <div class="env-block definition">
@@ -572,6 +586,9 @@ window.CHAPTERS.push({
             title: 'Comparing Motions on Graphs',
             content: `
                 <h2>Two Runners, One Graph</h2>
+
+                <p>Graphs become even more powerful when we compare two objects on the same plot. This section shows how to see overtaking, head starts, and meeting points at a glance.</p>
+
                 <p>One of the coolest things about graphs is that you can put <strong>multiple motions on the same graph</strong> and compare them instantly!</p>
 
                 <div class="env-block intuition">
@@ -591,6 +608,11 @@ window.CHAPTERS.push({
                 <div class="env-block warning">
                     <div class="env-title">Common Mistake</div>
                     <div class="env-body"><p>Two lines crossing does NOT mean the objects crash into each other. It means they happen to be at the same distance from the start at the same time. They could be on completely different paths!</p></div>
+                </div>
+
+                <div class="env-block intuition">
+                    <div class="env-title">A Big Shift Ahead</div>
+                    <div class="env-body"><p>Congratulations! You have completed the first arc of this course: <strong>describing motion</strong>. You can now talk about position, speed, acceleration, and motion graphs with confidence. But there is a deeper question we have not yet asked: <em>why</em> do things move the way they do? What causes a ball to speed up, slow down, or change direction? The answer is <strong>force</strong>, and that is exactly where our journey continues in the next chapter.</p></div>
                 </div>
             `,
             visualizations: [
